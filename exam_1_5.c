@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    float x = 0, pi = 3.141;
+    int x = 0;
+    float pi = 3.141;
 
-    scanf("%f", &x);
+    scanf("%d", &x);
     printf("%.2f", pi * x);
 
     return 0;
